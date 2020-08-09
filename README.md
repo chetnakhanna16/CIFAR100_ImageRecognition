@@ -8,7 +8,7 @@ Convolutional neural network (CNN) is a class of deep neural network commonly us
 
 ## Glimpses of the task done and results achieved:
 
-![Accuracy versus number of epochs](https://github.com/chetnakhanna16/CIFAR100_ImageRecognition/blob/master/images/Accuracy_Final.png)
+![Accuracy versus number of epochs](https://github.com/chetnakhanna16/CIFAR100_ImageRecognition/blob/master/images/Accuracy_Final.png | width = 100)
 
 ![Loss versus number of epochs](https://github.com/chetnakhanna16/CIFAR100_ImageRecognition/blob/master/images/Loss_Final.png)
 
