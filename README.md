@@ -10,13 +10,18 @@ Convolutional neural network (CNN) is a class of deep neural network commonly us
 
 ![Accuracy versus number of epochs](https://github.com/chetnakhanna16/CIFAR100_ImageRecognition/blob/master/images/Accuracy_Final.png)
 
+
 ![Loss versus number of epochs](https://github.com/chetnakhanna16/CIFAR100_ImageRecognition/blob/master/images/Loss_Final.png)
+
 
 ![True and Predicted Labels](https://github.com/chetnakhanna16/CIFAR100_ImageRecognition/blob/master/images/TruePredictedLabels.png)
 
+
 ![Correct Prediction by the Model](https://github.com/chetnakhanna16/CIFAR100_ImageRecognition/blob/master/images/Correct_Prediction.png)
 
+
 ![Incorrect Prediction by the Model](https://github.com/chetnakhanna16/CIFAR100_ImageRecognition/blob/master/images/Incorrect_Prediction.png)
+
 
 
 ## CONCLUSION:
@@ -24,5 +29,5 @@ Recognition of different images is a simple task for we humans as it is easy for
 consciously with a similar type of images that has helped us distinguish between features (images) without putting much effort into the task. For instance, after seeing a few cats, we can recognize almost every different type of cat we encounter in our life. However, machines need a lot of training for feature extraction which becomes a challenge due to high computation cost, memory requirement and processing power. The 9-layer deep neural network model built in this project for CIFAR-100 dataset recognizes and classifies colored images of objects in one of the 100 available categories with 59% accuracy. The ConvNet architecture of the model has three stacks of CONV-RELU layers followed by a POOL layer and then two fully connected (FC) RELU layers followed by a fully connected output layer. The model uses 13,870,484 trainable parameters which has been trained for an hour an half on a GPU with 8vCPUs. The Adam optimizer with learning rate 0.0001 and categorical cross entropy loss has been used to used to support the training process which involved 100 epochs and 64 as the batch size. The reported loss is 1.47. The model used techniques like early stopping and dropout to avoid overfitting. 
 Even after training the model with millions of parameters, the model predicted the class for a few images completely wrong. As it is considered that the performance of a deep learning model increases with the amount of data used in its training, it would be highly possible that such a mediocre accuracy was due to the limited size of the dataset for each class. It is believed that the accuracy of this dataset can be further improved by working on different factors related to model building and hyperparameter tuning.
 
-Detailed Research Paper:
+<B>Detailed Research Paper:</B>
 https://github.com/chetnakhanna16/CIFAR100_ImageRecognition/blob/master/Project_Paper_001081074.pdf
