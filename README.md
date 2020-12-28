@@ -10,17 +10,22 @@ Convolutional neural network (CNN) is a class of deep neural network commonly us
 <B>Accuracy versus number of epochs</B>
 ![Accuracy versus number of epochs](https://github.com/chetnakhanna16/CIFAR100_ImageRecognition/blob/master/images/Accuracy_New.png)
 
+
 <B>Loss versus number of epochs</B>
 ![Loss versus number of epochs](https://github.com/chetnakhanna16/CIFAR100_ImageRecognition/blob/master/images/Loss_New.png)
+
 
 <B>True and Predicted labels</B>
 ![True and Predicted Labels](https://github.com/chetnakhanna16/CIFAR100_ImageRecognition/blob/master/images/TruePredictedLabels_1.png)
 
+
 <B>Correct Prediction by the model</B>
 ![Correct Prediction by the Model](https://github.com/chetnakhanna16/CIFAR100_ImageRecognition/blob/master/images/Correct_Prediction2.png)
 
+
 <B>Incorrect Prediction by the model</B>
 ![Incorrect Prediction by the Model](https://github.com/chetnakhanna16/CIFAR100_ImageRecognition/blob/master/images/Incorrect_Prediction2.png)
+
 
 ## CONCLUSION:
 Recognition of different images is a simple task for we humans as it is easy for us to distinguish between different features. Somehow our brains are trained un-
